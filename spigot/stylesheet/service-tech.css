@@ -1,0 +1,25 @@
+.service-tech {
+	text-align: center;
+	margin: 50px;
+	height: 700px;
+}
+
+.service-tech-circle {
+	display: grid;
+	margin: 50px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.service-tech-circle div {
+	margin: 10px;
+}
+
+.service-tech-circle p {
+	line-height: 1.4;
+	font-size: 14px;
+	text-align: left;
+}
+
+.service-tech-circle hr {
+	width: 50%;
+}

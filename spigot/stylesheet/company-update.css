@@ -1,0 +1,29 @@
+.company-update {
+	background-color: white;
+	height: 400px;
+	display: flex;
+	padding: 70px;
+}
+
+.company-update-grid {
+	display: grid;
+	grid-gap: 5px;
+	padding: 30px;
+	margin: auto;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.company-info1 {
+	text-align: center;
+	width: 80%;
+}
+
+.company-info1 img {
+	width: 70%;
+}
+
+#comesee {
+	font-weight: 100;
+}
+
+

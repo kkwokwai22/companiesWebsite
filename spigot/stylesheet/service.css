@@ -1,0 +1,42 @@
+.service {
+	background-color: #ffffff;
+	height: 400px;
+	margin: 20px;
+	padding-top: 60px;
+	padding-right: 40px;
+	padding-bottom: 55px;
+	padding-left: 40px;
+}
+
+.service-description {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+}
+
+.service-group1 {
+	line-height: 1.5;
+	margin: 10px;
+	font-weight: 100;
+	color: #4c4c4c;
+}
+
+.service-group1 h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.service-group2 img {
+	width: 90%;
+}
+
+.service-group1 p {
+	font-size: 14px;
+	text-align: left;
+}
+
+.service1 {
+	text-align: center;
+}
+
+
+

@@ -1,0 +1,40 @@
+h2,
+p {
+	padding: 0
+	margin: 0;
+}
+
+.company-career {
+	height: 700px;
+	width: 100%;
+}
+
+.company-career-box1 {
+	width: 80%;
+	margin: 50px 80px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.company-career-box1 img {
+	float: left;
+	margin-right: 50px;
+	height: 30%;
+	width: 30%;
+}
+
+.company-career-text {
+	margin: 0 30px;
+	width: 100%;
+}
+
+.company-career-text h2 {
+	color: blue;
+}
+
+.company-career-box1:after {
+	content: '.';
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}

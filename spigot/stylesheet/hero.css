@@ -1,0 +1,30 @@
+.hero {
+	height: 700px;
+	background-image: url('../images/hero.jpg');
+	max-width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+}
+
+.herotext {
+	text-align: center;
+	color: white;
+}
+
+.herotext h1:nth-child(1) {
+	font-size: 60px;
+	margin: 10px;
+	font-weight: -100px;
+	letter-spacing: 3px;
+}
+
+.herotext div {
+	display: inline-block;
+	margin: 20px;
+	color: blue;
+}
+
+.herowrapper {
+	margin: auto;
+}
