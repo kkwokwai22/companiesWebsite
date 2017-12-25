@@ -1,0 +1,19 @@
+.grid-footer {
+	display: grid;
+	margin: 40px auto;
+	grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-image {
+	text-align: left;
+}
+
+.grid-footer ul {
+	font-family: 'Effra', Arial, Helvetica;
+	font-size: 10px;
+	line-height: 2em;
+	text-transform: uppercase;
+	display: block;
+	letter-spacing: 1px;
+	text-align: left;
+}

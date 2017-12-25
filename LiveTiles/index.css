@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    background: #eee;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+}
+
+#svglogo {
+    margin: 20px;
+}
+
+.contentwrap {
+    display: flex;
+}
+
+nav ul {
+    display: none;
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+    #section-description {
+        height: 300px;
+        width: 100%;
+        color: #eee;
+    }
+    
+    #bg-image {
+        position: absolute;
+        background: url(./images/description1.jpeg);
+        height: 300px;
+        width: 100%;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    
+    #section-description h1 {
+        top: 100px;
+    }
+    
+    .btn {
+        display: inline-block;
+        margin: 2.0em 0;
+        background: #1ebd9c;
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 0.5em 2em;
+        border: 3px solid #1ebd9c;
+    }
+    
+    @media(min-width: 700px) {
+        #section-description {
+            height: 500px;
+        }
+        #bg-image {
+            height: 500px;
+        }
+    }
