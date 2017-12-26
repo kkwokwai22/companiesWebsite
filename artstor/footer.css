@@ -17,3 +17,12 @@
 	letter-spacing: 1px;
 	text-align: left;
 }
+
+#footer-logo ul {
+	display: flex;
+}
+
+#footer-logo ul li img {
+	width: 25px;
+	height: 25px;
+}

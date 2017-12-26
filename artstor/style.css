@@ -28,7 +28,9 @@ header {
 
 .thumbnail {
 	float: right;
+	padding-top: 40px;
 	margin: 10px;
+	margin-right: 30px;
 	width: 200px;
 }
 
@@ -37,11 +39,13 @@ header {
 	float: left;
 	height: 50px;
 	width: 50px;
+	margin-right: 20px;
 }
 
-header::after {
-	content: '';
-	clear: both;
+.thumbnail-small-content {
+	width: 300px;
+	text-align: left;
+	margin-top: 10px;
 }
 
 .content ul {
@@ -59,3 +63,12 @@ header::after {
 	clear: float;
 	content: '';
 }
+
+/*
+
+		<div class='thumbnail'>
+			<img src='./images/head.jpg' alt='head'>
+			<a href="www.google.com">ENTER</a>
+			<h4>Artstor Digital Library</h4>
+		</div>
+*/
