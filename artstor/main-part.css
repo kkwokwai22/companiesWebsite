@@ -3,16 +3,23 @@
 }
 
 .first-part {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	display: flex;
 	background: #fafafa;
 }
 
 .first-part-item {
+	flex: 1;
+	border: 1px solid #bebebe;
 	height: 80px;
-	margin-top: 20px;
-	margin-left: 20px;
 	text-align: left;
+}
+
+.first-part-item div:first-child {
+	margin-top: 15px;
+}
+
+.first-part-item div {
+	margin-left: 20px;
 }
 
 /*#969696!important*/

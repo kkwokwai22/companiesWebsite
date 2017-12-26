@@ -48,6 +48,27 @@ header {
 	margin-top: 10px;
 }
 
+.custom-gray-wording {
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: #969696;
+	text-transform: uppercase;
+}
+
+.custom {
+	margin-top: 4px;
+	font-size: 14.45px;
+	font-weight: bold;
+}
+
+#custom1:hover {
+	color: blue;
+}
+
+#custom2 {
+	color: green;
+}
+
 .content ul {
 	display: flex;
 	margin-left: 10px;
@@ -62,13 +83,5 @@ header {
 .content::after {
 	clear: float;
 	content: '';
-}
+} 
 
-/*
-
-		<div class='thumbnail'>
-			<img src='./images/head.jpg' alt='head'>
-			<a href="www.google.com">ENTER</a>
-			<h4>Artstor Digital Library</h4>
-		</div>
-*/
