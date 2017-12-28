@@ -15,11 +15,16 @@
 }
 
 .first-part-item div:first-child {
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .first-part-item div {
 	margin-left: 20px;
+}
+
+.first-part-item:hover {
+	border: 1px solid #0032ff;
+	cursor: pointer;
 }
 
 /*#969696!important*/

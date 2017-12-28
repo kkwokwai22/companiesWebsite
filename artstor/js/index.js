@@ -1,7 +1,7 @@
 const d = document;
 
 // list item for content
-let fullList = ['About', 'Artstor Digital Library', 'Shared Self', 'News', 'Initiatives', 'Teaching Resources', 'Tips'];
+let fullList = ['About', 'Artstor Digital Library', 'Shared Self', 'News', 'Initiatives', 'Teaching Resources', 'Help'];
 let id = ['decorativeArt', 'Anthropology', 'sharedSelfCommons', 'photojouralism', 'resources'];
 let words = ['Collection', 'Collection', 'Discovery', 'Collection', 'Service'];
 let info = ['Decorative Arts', 'Anthropology', 'Shared Self Commons', 'Photojouralism', 'Resources for Librarians'];

@@ -1,0 +1,12 @@
+.main-part-wrapper {
+	position: relative;
+}
+
+.hover-item-of-content {
+	position: absolute;
+}
+
+.hover-item-of-content::after {
+	content: '';
+	clear: both;
+}
