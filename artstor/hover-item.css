@@ -3,10 +3,59 @@
 }
 
 .hover-item-of-content {
+	display: block;
 	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	height: 220px;
+	background-color: white;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	top: 56px;
 }
 
 .hover-item-of-content::after {
 	content: '';
 	clear: both;
+}
+
+.hover-item-in-grid {
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	margin: 35px;
+}
+
+.hover-item-in-grid img {
+	border-radius: 50%;
+	height: 160px;
+	width: 160px;
+	margin-right: 55px;
+}
+
+.hover-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 30px;
+	width: 50%;
+	text-align: left;
+	font-weight: bold;
+}
+
+.hover-grid ul li {
+	line-height: 1.5em;
+}
+
+.hover-grid-content {
+	text-align: left;
+}
+
+.hover-grid-content div:first-child {
+	font-size: 26px;
+	line-height: 1em;
+}
+
+.hover-grid-content div:nth-child(2) {
+	font-size: 12px;
+	line-height: 1.8em;
+	max-width: 740px;
 }
