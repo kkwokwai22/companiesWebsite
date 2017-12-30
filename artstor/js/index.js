@@ -1,7 +1,6 @@
 const d = document;
 
 // list item for content
-let fullList = ['About', 'Artstor Digital Library', 'Shared Self', 'News', 'Initiatives', 'Teaching Resources', 'Help'];
 let id = ['decorativeArt', 'Anthropology', 'sharedSelfCommons', 'photojouralism', 'resources'];
 let words = ['Collection', 'Collection', 'Discovery', 'Collection', 'Service'];
 let info = ['Decorative Arts', 'Anthropology', 'Shared Self Commons', 'Photojouralism', 'Resources for Librarians'];
@@ -12,16 +11,6 @@ let divGenerate = () => {
 
 let liGenerate = () => {
 	return d.createElement('li');
-};
-
-let generateContentPart = list => {
-	let ul = d.getElementById('content_ul');
-	for (let i = 0; i < list.length; i++) {
-		// create a li
-		let li = liGenerate();
-		li.textContent = list[i];
-		ul.append(li);
-	}
 };
 
 // main part border part
@@ -50,5 +39,4 @@ let generateFirstPart = (idArr, wordArr, infoArr) => {
 	}
 };
 
-generateContentPart(fullList);
 generateFirstPart(id, words, info);
