@@ -24,7 +24,6 @@ let generateFirstPart = (idArr, wordArr, infoArr) => {
 		// appendChild to div(first-part-item)
 		div.appendChild(wordDiv);
 		div.appendChild(infoDiv);
-		console.log(div);
 		firstPart.appendChild(div);
 	}
 };

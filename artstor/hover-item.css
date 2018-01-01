@@ -3,7 +3,7 @@
 }
 
 .hover-item-of-content {
-	display: block;
+	display: none;
 	position: absolute;
 	z-index: 1000;
 	width: 100%;
@@ -12,6 +12,7 @@
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 	top: 56px;
+	transition: 5s;
 }
 
 .hover-item-of-content::after {
