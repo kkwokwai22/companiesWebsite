@@ -1,0 +1,17 @@
+main {
+	grid-column: 1/13;
+	margin-top: 70px;
+}
+
+.image-content {
+	background: url(../images/h00.jpg) no-repeat center;
+	background-size: 100% 100% !important;
+	width: 95%;
+	height: 650px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
