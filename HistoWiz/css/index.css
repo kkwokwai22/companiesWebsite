@@ -3,4 +3,10 @@
 	grid-template-columns: repeat(12, 1fr);
 }
 
-
+body {
+	font-family: Gotham, Helvetica, Arial, sans-serif;
+	color: #2d2e8d;
+	font-size: 17px;
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+}
