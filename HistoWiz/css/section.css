@@ -27,12 +27,12 @@ section {
 .grid-icon {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	margin: 0 20px;
+	width: 100%;
 }
 
 .icon {
 	margin: 50px;
-	width: 600px;
+	width: 90%;
 }
 
 .icon img {
@@ -54,8 +54,27 @@ section {
 /*	section three  */
 
 .section-three-wrapper {
-	height: 400px;
+	height: 450px;
 	background-color: #f5f5f5;
+}
+
+.section-three-content {
+	display: flex;
+	width: 100%;
+	text-align: center;
+}
+
+.threeContent {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.threeContent img {
+	width: 80%;
+}
+
+.threeContent p {
+	margin-top: 20px;
 }
 
 /*	section four  */
@@ -65,11 +84,57 @@ section {
 	background-color: white;
 }
 
+.section-four-content {
+	margin-top: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+.section-four-content div:first-child {
+	font-size: 25px;
+}
+
+.section-four-content img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+#seeAll {
+	margin: 20px auto;
+	border-radius: 22px;
+	border: 2px solid #e81164;
+	padding: 5px;
+	width: 100px;
+	color: #e81164;
+}
+
 /*	section five  */
 
 .section-five-wrapper {
-	height: 150px;
+	display: flex;
+	height: 100px;
 	background-color: #f5f5f5;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	margin: 100px auto;
+}
+
+.container li {
+	float: left;
+	margin: 20px 20px;
+}
+
+.container li img {
+	width: 40px;
+	background-color: #e81164;
+}
+
+#seperate {
+	margin-left: 70px;
+	margin-right: 50px;
 }
 
 /*@media screen and (max-width: 699px) and (min-width: 520px) {

@@ -1,8 +1,23 @@
 footer {
 	grid-column: 1/13;
-	height: 150px;
+	height: 100px;
 	background-color: #e81164;
 }
 
+.footer-content {
+	display: flex;
+}
 
+.footer-content p {
+	flex: 3;
+	margin: 20px 50px;
+	margin-right: 90px;
+	color: white;
+	font-size: 12px;
+}
 
+.footer-content img {
+	flex: 1;
+	color: white;
+	padding: 10px;
+}
