@@ -71,10 +71,22 @@ section {
 
 .threeContent img {
 	width: 80%;
+	padding-bottom: 30px;
 }
 
 .threeContent p {
-	margin-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+.buttonColor {
+	display: inline-block;
+	background-color: #e81164;
+	padding: 13px;
+	text-align: center;
+	margin: 20px auto;
+	color: white;
 }
 
 /*	section four  */
@@ -88,10 +100,19 @@ section {
 	margin-top: 60px;
 	width: 100%;
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 .section-four-content div:first-child {
 	font-size: 25px;
+}
+
+.section-four-content a {
+	color: #e81164;
+}
+
+.section-four-content a:hover {
+	color: #2d2e8d;
 }
 
 .section-four-content img {
