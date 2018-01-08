@@ -4,6 +4,8 @@
 
 #### Using this only as practice and demonstrate my web development skill (no backend implement)
 
+#### Please give a min for heroku Server to wake up since its free version server is not constantly on
+
 1. Artstor - http://www.artstor.org/ 
 
 	My version: https://still-plains-41539.herokuapp.com/
