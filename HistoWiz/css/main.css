@@ -15,3 +15,40 @@ main {
 	margin: 0 auto;
 }
 
+.content {
+	padding-top: 40px;
+}
+
+.content h1 {
+	text-transform: uppercase;
+	font-size: 3.5em;
+	font-weight: 330;
+	letter-spacing: 2px;
+}
+
+.content h3 {
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+
+#orderButton {
+	background-color: #e81164;
+	width: 100px;
+	padding: 13px;
+	text-align: center;
+	margin: 20px auto;
+	color: white;
+}
+
+#orderButton:hover {
+	background-color: #2d2e8d;
+}
+
+#playButton {
+	opacity: 0.5;
+	max-width: 115px;
+}
+
+#playButton:hover {
+	opacity: 0.75;
+}

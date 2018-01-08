@@ -19,5 +19,6 @@ footer {
 .footer-content img {
 	flex: 1;
 	color: white;
+	width: 60%;
 	padding: 10px;
 }
